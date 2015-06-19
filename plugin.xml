@@ -49,6 +49,7 @@ id="org.apache.cordova.media"
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
         
@@ -66,6 +67,7 @@ id="org.apache.cordova.media"
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
         
